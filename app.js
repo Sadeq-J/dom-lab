@@ -85,6 +85,10 @@ function c(event) {
     number2 = null
     operator = null
     displayElement.textContent = ""
+
+    console.log(`Number1 : ${number1}`)
+    console.log(`Number2 : ${number2}`)
+    console.log(`Operator : ${operator}`)
 }
 
 /*----------------------------- Event Listeners -----------------------------*/
